@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-section {
+    background-color: transparent;
+    padding: 17px 0px;
+    position: absolute;
+}
+
+.nav-section h1 a {
+    color: white;
+    transition: 500ms;
+}
+
+.nav-section button a {
+    color: white;
+}
+
+.nav-section button:hover {
+    box-shadow: none;
+    transition: 500ms;
+}
+
+.nav-section h1 a:hover {
+    box-shadow: 0 0 20px -4px black;
+    border-radius: 12px;
+    padding: 0 16px;
+    transition: 500ms;
+}
+
+.navbar-nav a {
+    transition: 400ms;
+}
+
+.navbar-nav a:hover {
+    color: white;
+}
+
+.nav-section h1 {
+    font-size: 27px;
+    margin: 11px 0px;
+    color: white;
+    font-weight: 400;
+}
+
+.nav-section button {
+    padding: 6px 35px;
+    border-radius: 18px;
+    background-color: #ffffff94;
+    border: none;
+    color: white;
+    box-shadow: 0 0 36px -8px black;
+    margin: 6px 0px;
+    transition: 500ms;
+}
+
+.navbar {
+    background-color: transparent;
+    box-shadow: none !important;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .nav-item .nav-link {
+    display: block;
+    padding: 6px 16px;
+}
+
+/* slider section */
+.slider-section {
+    background: url(../images/Group1.png);
+    height: 873px;
+    background-size: cover;
+    background-position-y: bottom;
+    background-attachment: fixed;
+}
+
+.slider-caption {
+    position: absolute;
+    top: 35%;
+}
+
+.slider-caption h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.slider-caption button {
+    padding: 8px 46px;
+    border-radius: 21px;
+    border: none;
+    background-color: #ffffff8c;
+    color: white;
+    position: absolute;
+    left: 0;
+    /* animation: button 5s infinite; */
+    box-shadow: 0 0 53px -15px black;
+}
+
+@keyframes button {
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left: 30%;
+    }
+
+    75% {
+        left: 40%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.slider-caption p {
+    position: absolute;
+    top: 139%;
+    font-family: 'Corben', cursive;
+    color: white;
+}
+
+.slider-caption img {
+    position: absolute;
+    width: 15%;
+    top: 185%;
+    left: 16%;
+    animation: img 3s infinite;
+}
+
+@keyframes img {
+    0% {
+        top: 185%;
+    }
+
+    50% {
+        top: 250%;
+    }
+
+    100% {
+        top: 185%;
+    }
+}
+
+/*------------- section-a -------------*/
+
+.section-a {
+    padding: 62px 0px;
+}
+
+.section-a1 {
+    background: url('../images/ss.png');
+    height: 554px;
+}
+
+.section-a3 {
+    background: url('../images/ss2.png');
+    height: 554px;
+    background-size: cover;
+}
+
+.section-a3 img {
+    position: absolute;
+    left: 61%;
+    top: 10%;
+}
+
+.section-a1 img {
+    position: absolute;
+    top: 53%;
+    left: 4%;
+    animation: hand 3s infinite;
+}
+
+@keyframes hand {
+    0% {
+        top: 53%;
+        left: 4%;
+    }
+
+    50% {
+        top: 45%;
+        left: 10%;
+    }
+
+    100% {
+        top: 53%;
+        left: 4%;
+    }
+}
+
+.section-a2 {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #056ACC;
+    padding: 175px 59px;
+}
+
+.section-a2 h2 {
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.section-a2 p {
+    font-size: 21px;
+}
+
+/* --------------------footer section-------------------- */
+.footer-section {
+    background: url('../images/Intersection 3.png');
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.flex-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 0px 296px;
+}
+
+.flex-icons svg {
+    width: 48px;
+}
+
+/* ------------order-section------------ */
+.order-section {
+    background: url('../images/Intersection 1.png');
+    padding-top: 110px;
+}
+
+.order-section form {
+    display: grid;
+    margin-top: 100px;
+    padding-bottom: 24px;
+}
+
+.order-section form input {
+    padding: 3px 12px;
+    border: none;
+    border-radius: 14px;
+    margin: 11px 0px;
+    background: #ffffff85;
+    color: white;
+}
+
+.order-section form textarea {
+    padding: 3px 12px;
+    border: none;
+    border-radius: 14px;
+    margin: 11px 0px;
+    background: #ffffff85;
+    color: white;
+}
+
+.order-section button {
+    padding: 6px 35px;
+    border-radius: 18px;
+    background-color: #ffffff94;
+    border: none;
+    color: white;
+    box-shadow: 0 0 14px -8px black;
+    margin: 6px 0px;
+}
+
+/* ------------------singup-section------------------ */
+.singup-section {
+    background: url('../images/Intersection 1.png');
+    padding-top: 167px;
+    min-height: 797px;
+}
+
+.flex-form {
+    display: flex;
+}
+
+.flex-form input:nth-child(1) {
+    margin-right: 35px;
+}
+
+.singup-section input {
+    padding: 11px 7px;
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 0px;
+    border: 0px;
+    background-color: white;
+}
+
+.flex-checkbox input {
+    width: 20%;
+    margin-top: 4px;
+}
+
+.flex-checkbox label {
+    color: white;
+}
+
+.singup-section button {
+    display: inline-block;
+    border: none;
+    background-color: #ffffff75;
+    padding: 15px 0px;
+    width: 100%;
+    color: white;
+    margin-top: 10px;
+    box-shadow: 0 0 20px -9px black;
+    transition: 800ms;
+}
+
+.singup-section h2,
+p {
+    color: white;
+    font-weight: 400;
+}
+
+.singup-section p {
+    border-bottom: 3px solid #0384e0;
+    padding-bottom: 15px;
+}
+
+.section-c {
+    background: url('../images/modern-online-registration-compositio_23-2147993862-copy.png');
+    height: 630px;
+    background-size: cover;
+
+}
+
+.section-c img:nth-child(1) {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.section-c img:nth-child(2) {
+    position: absolute;
+    top: 8%;
+    left: 53%;
+    z-index: 1;
+}
+
+.section-c img:nth-child(3) {
+    position: absolute;
+    top: -6%;
+    left: 79%;
+}
+
+/* ------------login-section------------ */
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+
+.login-section h2::after {
+    content: '';
+    width: 50%;
+    position: absolute;
+    display: block;
+    height: 2px;
+    top: 15%;
+    background-color: #ffffff87;
+    left: 25%;
+}
+
+.login-section {
+    text-align: center
+}
+
+.login-section h2 {
+    padding-bottom: 26px;
+}
+
+.login-section form input {
+    width: 36%;
+}
+
+.login-section button {
+    width: 36% !important;
+}
+
+.checkbox2 {
+    width: 20px !important;
+}
+.login-section h6{
+    color: white;
+    padding: 19px 0px;
+}
+.login-section h6 a{
+    color: white
+}
+.login-section h6 a:hover{
+    color:#333;
+}
